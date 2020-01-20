@@ -1,4 +1,4 @@
-"""Get Purchase"""
+"""Tests for get_purchase handler"""
 
 from parametrization import Parametrization
 

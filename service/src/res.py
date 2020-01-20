@@ -1,3 +1,5 @@
+"""Examples of response"""
+
 get_purchase_response = {
    "items": [
       {

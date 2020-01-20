@@ -1,4 +1,4 @@
-"""Create order"""
+"""Tests for create_order handler"""
 
 from parametrization import Parametrization
 

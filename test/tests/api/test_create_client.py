@@ -1,4 +1,4 @@
-"""Create client"""
+"""Tests for create_client handler"""
 
 from parametrization import Parametrization
 

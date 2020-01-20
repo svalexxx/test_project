@@ -1,3 +1,5 @@
+"""Generators for tests"""
+
 from random import choice, randint
 from string import ascii_letters, digits, punctuation, ascii_lowercase, ascii_uppercase
 from faker import Faker

@@ -1,3 +1,5 @@
+"""JSON scheme for validation requests"""
+
 create_client_request = {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
