@@ -1,10 +1,7 @@
 """Tests for create_client handler"""
 
-from parametrization import Parametrization
-
-from test.common.generators import *
 from test.common.function import create_client
-from service.src import res
+from test.common.generators import *
 
 
 class TestCreateClient:

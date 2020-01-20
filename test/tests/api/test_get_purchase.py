@@ -2,9 +2,9 @@
 
 from parametrization import Parametrization
 
-from test.common.generators import *
-from test.common.function import get_purchase
 from service.src import res
+from test.common.function import get_purchase
+from test.common.generators import *
 
 
 class TestGetPurchase:

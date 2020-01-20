@@ -1,11 +1,7 @@
 """Tests for create_order handler"""
 
-from parametrization import Parametrization
-import pytest
-
-from test.common.generators import *
 from test.common.function import create_order
-from service.src import res
+from test.common.generators import *
 
 
 class TestCreateOrder:
