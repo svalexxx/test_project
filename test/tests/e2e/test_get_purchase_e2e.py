@@ -19,7 +19,7 @@ class TestGetPurchaseE2E:
     def test_create_new_order(self):
         global order_id
         data = {
-            "client_id": str(client_id),
+            "client_id": client_id,
             "address": fake_address(),
             "phone": fake_phone_number(),
             "items": [
@@ -36,7 +36,7 @@ class TestGetPurchaseE2E:
 
     def test_get_purchase_by_client(self):
         data = {
-            "client_id": str(client_id),
+            "client_id": client_id,
             "item_ids": ["1"]
         }
         r = get_purchase(data)

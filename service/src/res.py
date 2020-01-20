@@ -13,12 +13,12 @@ get_purchase_response = {
 }
 
 create_order_response = {
-   "order_id": 1,
+   "order_id": "1",
    "order_number": "Order №1"
 }
 
 create_client_response = {
-   "client_id": 1
+   "client_id": "1"
 }
 
 error_response = {
