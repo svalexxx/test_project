@@ -3,11 +3,11 @@
 get_purchase_response = {
    "items": [
       {
-         "item_id": "string",
+         "item_id": "1",
          "purchased": "is_purchased",
-         "last_order_number": "string",
+         "last_order_number": "1",
          "last_purchase_date": "2020-01-16T13:33:00.000Z",
-         "purchase_count": "string"
+         "purchase_count": "1"
       }
    ]
 }

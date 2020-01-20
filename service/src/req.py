@@ -44,10 +44,10 @@ create_order_request = {
               "type": "string"
             },
             "price": {
-              "type": "string"
+              "type": "number"
             },
             "quantity": {
-              "type": "string"
+              "type": "integer"
             }
           },
           "required": [

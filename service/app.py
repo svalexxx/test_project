@@ -17,7 +17,7 @@ def create_client():
         except ValidationError:
             return res.error_response, 400
     else:
-        return res.error_response, 400
+        return res.error_response, 405
 
 
 @app.route('/v1/order/create', methods=['POST'])
@@ -30,7 +30,7 @@ def create_order():
         except ValidationError:
             return res.error_response, 400
     else:
-        return res.error_response, 400
+        return res.error_response, 405
 
 
 @app.route('/v1/item/purchase/by-client', methods=['GET'])
@@ -43,7 +43,7 @@ def get_purchase():
         except ValidationError:
             return res.error_response, 400
     else:
-        return res.error_response, 400
+        return res.error_response, 405
 
 
 if __name__ == '__main__':
