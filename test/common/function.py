@@ -3,7 +3,7 @@
 import requests
 import json
 
-from test.src.config import variables
+from test.common.config import variables
 
 
 def get_purchase(data, headers=None):
