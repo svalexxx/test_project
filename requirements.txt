@@ -1,0 +1,9 @@
+pytest
+requests
+urllib3==1.21.1
+allure-pytest
+pytest-base-url
+Faker
+pytest-parametrization
+jsonschema
+pytest-rerunfailures
